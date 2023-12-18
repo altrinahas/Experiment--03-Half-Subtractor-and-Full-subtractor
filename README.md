@@ -43,7 +43,7 @@ Click on "File" > "New" > "Verification/Debugging Files" > "University Program V
 
 ## Program:
 
-HALF SUBRACTOR
+HALF SUBTRACTOR:
 ```
 module halfsubtractor(diff,borrow,a,b);
 input a,b;
@@ -52,7 +52,7 @@ assign diff = a^b;
 assign borrow = -a&b;
 endmodule
 ```
-FULL SUBRACTOR 
+FULL SUBTRACTOR: 
 ```
 module fullsubtractor(diff,carry,a,b,c);
 input a,b,c;
@@ -63,7 +63,7 @@ endmodule
 ```
 ## Truthtable
 
-HALF SUBRACTOR
+HALF SUBTRACTOR
 
 ![image](https://github.com/altrinahas/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145980038/44e7b50a-8505-421e-ade1-c92f0765d353)
 
@@ -74,7 +74,7 @@ FULL SUBRACTOR
 
 ##  RTL realization
 
-HALF SUBRACTOR
+HALF SUBTRACTOR
 
 ![image](https://github.com/altrinahas/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145980038/673465af-26f6-46f4-8005-bc92539e0064)
 
@@ -85,11 +85,11 @@ FULL SUBRACTOR
 
 ## Timing diagram 
 
-HALF SUBRACTOR
+HALF SUBTRACTOR
 
 ![image](https://github.com/altrinahas/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145980038/dcef5284-73a0-4076-aa66-2ac45da5203c)
 
-FULL SUBRACTOR
+FULL SUBTRACTOR
 
 ![image](https://github.com/altrinahas/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/145980038/72e99256-cdc6-4656-9098-d02ec6925425)
 
